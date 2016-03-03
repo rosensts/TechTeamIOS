@@ -12,6 +12,9 @@
 		233EB2211C860E9400E9C544 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 233EB21F1C860E9400E9C544 /* Main.storyboard */; };
 		233EB2231C860E9400E9C544 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 233EB2221C860E9400E9C544 /* Assets.xcassets */; };
 		233EB2261C860E9400E9C544 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 233EB2241C860E9400E9C544 /* LaunchScreen.storyboard */; };
+		233EB22E1C8612B100E9C544 /* GeocoderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233EB22D1C8612B100E9C544 /* GeocoderVC.swift */; };
+		233EB2301C8613DB00E9C544 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 233EB22F1C8613DB00E9C544 /* MapKit.framework */; };
+		23E9CE321C88C5D900A76505 /* MapAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E9CE311C88C5D900A76505 /* MapAnnotation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		233EB2221C860E9400E9C544 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		233EB2251C860E9400E9C544 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		233EB2271C860E9400E9C544 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		233EB22D1C8612B100E9C544 /* GeocoderVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeocoderVC.swift; sourceTree = "<group>"; };
+		233EB22F1C8613DB00E9C544 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		23E9CE311C88C5D900A76505 /* MapAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapAnnotation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				233EB2301C8613DB00E9C544 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +45,7 @@
 		233EB20F1C860E9400E9C544 = {
 			isa = PBXGroup;
 			children = (
+				233EB22F1C8613DB00E9C544 /* MapKit.framework */,
 				233EB21A1C860E9400E9C544 /* TechTeamIOS */,
 				233EB2191C860E9400E9C544 /* Products */,
 			);
@@ -60,6 +68,8 @@
 				233EB2221C860E9400E9C544 /* Assets.xcassets */,
 				233EB2241C860E9400E9C544 /* LaunchScreen.storyboard */,
 				233EB2271C860E9400E9C544 /* Info.plist */,
+				233EB22D1C8612B100E9C544 /* GeocoderVC.swift */,
+				23E9CE311C88C5D900A76505 /* MapAnnotation.swift */,
 			);
 			path = TechTeamIOS;
 			sourceTree = "<group>";
@@ -136,8 +146,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				233EB22E1C8612B100E9C544 /* GeocoderVC.swift in Sources */,
 				233EB21E1C860E9400E9C544 /* ViewController.swift in Sources */,
 				233EB21C1C860E9400E9C544 /* AppDelegate.swift in Sources */,
+				23E9CE321C88C5D900A76505 /* MapAnnotation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +297,7 @@
 				233EB22C1C860E9400E9C544 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
