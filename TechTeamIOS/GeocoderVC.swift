@@ -73,8 +73,7 @@ class GeocoderVC: UIViewController, MKMapViewDelegate {
     
     // Edit pindrop before dropping on map
     func mapView(mapView: MKMapView, viewForAnnotation annotation: MKAnnotation) -> MKAnnotationView? {
-        
-        
+
         // User blinking blue is also an annotation. Thus only change appearance of desired kind of annotation
         if annotation.isKindOfClass(MapAnnotation) {
             let annoView = MKPinAnnotationView(annotation: annotation, reuseIdentifier: "Default")
